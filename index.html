@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <title>Number Guessing Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="welcomeHeader">Number Guessing Game</h1>
+        <div class="row">
+            <div class="col-sm-0 col-md-2"></div>
+            <div class="col-sm-12 col-md-8">
+                <div class="row" id="speechDiv">
+                    <div class="col-8">
+                        <p id="message">
+                            Hi! My name is Gerald.
+                            <br/> What is your name?
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <!-- Robots lovingly delivered by Robohash.org -->
+                        <img src="images/theBot.png">
+                    </div>
+                    <div class="col-12" id="displayGetUserNameBtn">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputName">
+                                <button type="button" class="btn btn-info buttonMargin" id="inputNameButton">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12" id="displayGetMaxNumBtn">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="inputMaxNum">
+                                <button type="button" class="btn btn-info buttonMargin" id="inputMaxNumButton">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12" id="displayUserGuessBtn">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="inputGuess">
+                                <button type="button" class="btn btn-info buttonMargin" id="inputGuessButton">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12" id="displayReplayBtn">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-info buttonMargin" id="replayButton">Play Again</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-0 col-md-2"></div>
+        </div>
+    </div>
+</body>
+
+</html>

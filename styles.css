@@ -1,0 +1,49 @@
+/* Global styles */
+h1 {
+    text-align: center;
+}
+/* button styling */
+@media screen and (min-width: 576px) {
+	.buttonMargin {
+    margin-left:10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+	.buttonMargin {
+    margin-top:10px;
+    }
+}
+
+/* Speech box styles */
+#message {
+    font-style: italic;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#speechDiv {
+    padding: 10px; 
+    margin: auto;
+    border: 10px solid #17A2B8;
+    border-radius: 10px;
+}
+
+p::before {
+    content: "\201c";
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+/* Settings for forms */
+#displayGetMaxNumBtn {
+    display:none;
+}
+
+#displayUserGuessBtn {
+    display:none;
+}
+
+#displayReplayBtn {
+    display:none;
+}
